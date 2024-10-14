@@ -21,7 +21,7 @@ const SignIn: React.FC = () => {
       // Assuming the response contains a token
       // localStorage.setItem('token', response.data.token);
       // Redirect to homepage
-      navigate('/calendar');
+      navigate('/busname');
     } catch (error) {
       // Handle error appropriately
       console.error('Error signing in:', error);
